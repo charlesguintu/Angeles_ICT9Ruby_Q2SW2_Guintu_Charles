@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Robotics Club Registration Form</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    body{
+      background-image: url(https://static.vecteezy.com/system/resources/previews/001/879/912/non_2x/geometric-tech-shape-background-free-vector.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+    }
+    .container{
+      background-color: black;
+      color: white;
+      background: rgba(0,0,0,0.5);
+     
+    }
+    .form-group{
+      padding: 10px;
+      margin: 10px;
+      text-align: left;
+      align-content: left;
+      align-items: left;
+    }
+    .form-control{
+      width: 500px;
+    }
+    .form-check-input{
+    }
+  </style>
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="mb-4 text-center">
+      Robotics Club Registration Form
+    </h1>
+    <h3>Sample Form</h3>
+    <form>
+      <div class="row">
+        <div class="form-group">
+          <label for="example_text1"> Name</label>
+          <input type="text" class="form-control" id="example_text1" placeholder="Please Input Your Name">
+        </div>
+        <div class="form-group">
+          <label for="example_Email"> Email Address</label>
+          <input type="email" class="form-control" id="example_Email" placeholder="Please Input Your Email">
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="form-group">
+          <label for="example_text"> Age</label>
+          <input type="text" class="form-control" id="example_text" placeholder="Please Input Your Age">
+        </div>
+        <div class="form-group">
+          <label for="example_text2"> Phone Number</label>
+          <input type="text" class="form-control" id="example_text2" placeholder="Please Input Your Phone Number">
+        </div>
+      </div>
+
+      <h4> Preffered Robotics Topic</h4>
+      <div class="form-check mb-3">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1"> Engineering</label>
+      </div>  
+              <div class="form-check mb-3">
+        <input type="checkbox" class="form-check-input" id="exampleCheck2">
+        <label class="form-check-label" for="exampleCheck2"> Electronics</label>
+      </div>
+              <div class="form-check mb-3">
+        <input type="checkbox" class="form-check-input" id="exampleCheck3">
+        <label class="form-check-label" for="exampleCheck3"> Mechanical Design</label>
+      </div>
+
+      <h4> Robotics Experience Level</h4>
+      <div class="form-check mb-3">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1"> Beginner</label>
+      </div>  
+      <div class="form-check mb-3">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1"> Intermediate</label>
+      </div>
+      <div class="form-check mb-3">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1"> Advanced</label>
+      </div>
+
+      <div class="form-group mb-3">
+       <label for="project" class="form-check-label" style="margin-left: -20px; margin-bottom: 7px;">Preferred Robotics project</label>
+        <select class="form-control" id="project" style="width: 1040px ; margin-left: -20px; margin-bottom: 10px ;">
+          <option value="" disabled selected>Choose a project</option>
+          <option value="robot">Robot</option>
+          <option value="Car">Car</option>
+          <option value="Robotic Arm">Robotic Arm</option>
+        </select>
+      <label for="example_text4" style="margin-left:-20px;"> Statement of Interest</label>
+      <textarea class="form-control" id="example_text4" style="margin-left:-20px; margin-bottom: 10px; width: 1040px;">
+      </textarea>
+      <button type="submit" class="btn btn-primary" style="margin-left: -20px;">Submit</button>
+    </div>
+    </form>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html> 
